@@ -1,13 +1,22 @@
 #hangman-body {
   background-image:url('paperbackground.jpg');
   font-family: 'Gloria Hallelujah', Verdana, cursive;
+  margin: 0 auto;
+  max-width: 660px;
+  min-height: 500px;
+  border-radius: 5px;
+  text-align: center;
+}
+#wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 #messagediv, #hintdiv {
   min-height: 80px;
 }
 #hintdiv {
   display: inline-block;
-  min-width: 40%;
+  width: 50%;
   vertical-align: middle;
   text-align: center;
 }
@@ -16,13 +25,9 @@
   display: inline-block;
   position: relative;
   vertical-align: middle;
-  width: 40%;
+  width: 50%;
 }
 #hangman-body form {
   display: inline;
 }
-.scaffold {
-  position: absolute;
-  left: 25%;
 
-}
